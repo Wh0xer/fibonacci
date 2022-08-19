@@ -9,7 +9,7 @@ _(informações do [Todamateria](https://www.todamateria.com.br/sequencia-de-fib
 A sequência de Fibonacci é gerada dentro de um looping for(). Sendo assim, a partir dele conseguimos gerar a tão famosa sequência numérica (p. e. 1, 2, 3, 5, 8, ...).
 
 ```c++
-    void getVal(int res) {
+void getVal(int res) {
     for( int i = 0;i < 10; i++ ){
         res += i;
         cout << "* " << res << endl;
